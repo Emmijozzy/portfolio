@@ -1,0 +1,68 @@
+.port__container {
+	display: grid;
+	grid-template-rows: 70% 15% 15%;
+	align-items: center;
+	justify-content: center;
+	width: 25em;
+	height: 30em;
+	background-color: var(--color-bg);
+	box-shadow: var(--innerbox-shadow);
+	border-radius: 10px;
+}
+
+.img-box {
+	width: 90%;
+	// margin-top: 1rem;
+	justify-self: center;
+
+	.port__img {
+		width: 100%;
+	}
+}
+
+.port__name {
+	width: 90%;
+	align-self: flex-start;
+	justify-self: center;
+	font-family: var(--font-base);
+	color: var(--font-color);
+	font-weight: 700;
+	font-size: 14px;
+}
+
+.port__btn {
+	width: 90%;
+	display: flex;
+	justify-content: space-between;
+	justify-self: center;
+}
+
+.btn {
+	font-family: var(--font-base);
+	font-size: 14px;
+	font-weight: 500;
+	color: var(--font-color);
+	background-color: var(--color-bg);
+	outline: none;
+	border: none;
+	box-shadow: var(--innerbox-shadow);
+	border-radius: 5px;
+	width: 7em;
+	height: 3rem;
+	align-self: end;
+	margin-bottom: 20px;
+}
+
+.btn:hover {
+	box-shadow: var(--inner-shadow3);
+}
+
+.live-demo {
+	background-color: var(--font-color);
+	color: var(--color-bg);
+}
+
+.live-demo:hover {
+	background-color: var(--color-bg);
+	color: var(--font-color);
+}

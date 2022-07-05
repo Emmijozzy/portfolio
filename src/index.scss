@@ -1,7 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300;400;500;600;700&family=Open+Sans:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Caption:wght@400;700&display=swap');
+
+@import 'animate.css';
 
 :root {
+	--font-size-sm: clamp(0.7rem, 0.05vw + 0.69rem, 0.75rem);
+	--font-size-base: clamp(0.88rem, 0.13vw + 0.84rem, 1rem);
+	--font-size-md: clamp(1.09rem, 0.24vw + 1.03rem, 1.33rem);
+	--font-size-lg: clamp(1.37rem, 0.41vw + 1.26rem, 1.78rem);
+	--font-size-xl: clamp(1.71rem, 0.66vw + 1.54rem, 2.37rem);
+	--font-size-xxl: clamp(2.14rem, 1.02vw + 1.88rem, 3.16rem);
+	--font-size-xxxl: clamp(2.67rem, 1.54vw + 2.29rem, 4.21rem);
+
 	--font-base: 'Open Sans', sans-serif;
+	--font-content: 'PT Sans Caption', sans-serif;
+	--font-color: #00606c;
+	--font-color2: #000000a6;
+
+	--outer-shadow: 4px 4px 5px 0px #59b9c785 inset, -7px -5px 4px 0px #effbff inset;
+	--outer-shadow2: 5px 5px 10px #c7eaef, -5px -5px 10px #fdffffa9;
+	--innerbox-shadow: 5px 5px 4px #c7eaef, -5px -5px 4px #fdffffa9;
+	--inner-shadow3: 4px 4px 4px 0px #c7eaef inset, -4px -4px 4px 0px #fdffffa9 inset;
 
 	--color-golden: #dcca87;
 	--color-black: #0c0c0c;
@@ -9,15 +28,21 @@
 	--color-crimson: #f5efdb;
 	--color-grey: #aaaaaa;
 	--color-white: #ffffff;
-	--color-bg: #c3f5ff;
+	--color-bg: #e4f7fb;
+	--color-bg2: linear-gradient(145deg, #c3ffff, #a4dce3);
+
+	// font-size: clamp(16px, calc(1rem + ((1vw - 4px) * 0.25)), 20px);
 }
 
 html {
-	font-size: 100%;
+	font-size: 62.7%;
 }
 
 body {
 	background-color: var(--color-bg);
+	overflow-x: hidden;
+	width: 100vw;
+	min-height: 100vh;
 }
 
 * {

@@ -1,0 +1,79 @@
+.portfolio {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.app__portfolio {
+	flex-direction: column;
+	margin-top: 5rem;
+	width: 70%;
+
+	.port__nav {
+		gap: 20px;
+		list-style: none;
+		// width: 80%;
+		justify-content: space-around;
+		background-color: var(--color-bg);
+		box-shadow: var(--inner-shadow3);
+		font-family: var(--font-base);
+		color: var(--font-color);
+		font-size: 16px;
+		font-weight: 900;
+		padding: 10px;
+		border-radius: 10px;
+		// width: 80%;
+
+		li {
+			box-shadow: var(--innerbox-shadow);
+			padding: 10px 20px;
+			border-radius: 10px;
+			margin: 5px 0px;
+		}
+	}
+
+	.portfolio__container {
+		margin-top: 5rem;
+		flex-wrap: wrap;
+		gap: 20px;
+	}
+}
+
+@media screen and (min-width: 1201px) and (max-width: 3000px) {
+	.port__nav {
+		width: 80%;
+		li {
+			font-size: 16px;
+		}
+	}
+}
+
+@media screen and (max-width: 1200px) and (min-width: 851px) {
+	.port__nav {
+		width: 100%;
+		li {
+			font-size: 14px;
+		}
+	}
+}
+
+@media screen and (max-width: 850px) and (min-width: 651px) {
+	.port__nav {
+		width: 120%;
+		li {
+			font-size: 11px;
+		}
+	}
+}
+
+@media screen and (max-width: 650px) {
+	.port__nav {
+		flex-direction: column;
+		width: 100%;
+
+		li {
+			width: 80%;
+			text-align: center;
+		}
+	}
+}

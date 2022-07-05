@@ -1,0 +1,15 @@
+.app__footer {
+	background-color: var(--font-color);
+	height: 15em;
+	color: var(--color-bg);
+	font-family: var(--font-base);
+
+	h1 {
+		font-size: 3rem;
+	}
+
+	span {
+		font-size: 2rem;
+		margin: 10px;
+	}
+}
