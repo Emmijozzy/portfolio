@@ -1,6 +1,5 @@
 {
 	"name": "portfolio",
-	"homepage": "https://Emmijozzy.github.io/portfilio",
 	"version": "0.1.0",
 	"private": true,
 	"dependencies": {
