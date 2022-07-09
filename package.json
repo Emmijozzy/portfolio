@@ -1,5 +1,6 @@
 {
 	"name": "portfolio",
+	"homepage": "https://Emmijozzy.github.io/portfilio",
 	"version": "0.1.0",
 	"private": true,
 	"dependencies": {
@@ -18,6 +19,7 @@
 		"web-vitals": "^2.1.4"
 	},
 	"scripts": {
+		"postinstall": "husky install && cd app && yarn install",
 		"pre-commit": "lint-staged",
 		"start": "react-scripts start",
 		"predeploy": "npm run build",

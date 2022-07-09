@@ -1,19 +1,22 @@
 .port__container {
 	display: grid;
-	grid-template-rows: 70% 15% 15%;
+	grid-template-rows: 75% 10% 15%;
 	align-items: center;
 	justify-content: center;
 	width: 25em;
-	height: 30em;
+	height: 35em;
 	background-color: var(--color-bg);
 	box-shadow: var(--innerbox-shadow);
 	border-radius: 10px;
+	margin: 10px 0;
 }
 
 .img-box {
-	width: 90%;
+	width: 95%;
 	// margin-top: 1rem;
 	justify-self: center;
+	align-self: flex-start;
+	margin: 10px;
 
 	.port__img {
 		width: 100%;
@@ -65,4 +68,19 @@
 .live-demo:hover {
 	background-color: var(--color-bg);
 	color: var(--font-color);
+}
+
+@media screen and (max-width: 500px) {
+	.port__container {
+		width: 90%;
+		height: 43em;
+	}
+
+	.img-box {
+		width: 100%;
+	}
+
+	.port__img {
+		width: 100%;
+	}
 }

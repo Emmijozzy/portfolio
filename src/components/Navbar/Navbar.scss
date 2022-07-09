@@ -7,41 +7,41 @@
 	transition: all 1s ease-out;
 }
 
+.toggle__box {
+	position: absolute;
+	// top: 50px;
+	// left: 200px;
+	color: var(--font-color);
+	font-family: var(--font-base);
+	font-size: 16px;
+	transform: translate(350%, 10%);
+	z-index: 2222;
+	background-color: var(--color-bg);
+	padding: 5px;
+	border-radius: 10px;
+	box-shadow: 0px 0px 0px 2px var(--font-color);
+	&.close {
+		transform: translate(200%, 10%);
+		display: none;
+		transition: all 2s ease-out;
+	}
+
+	&.open {
+		opacity: 0;
+		display: block;
+		animation: fadeIn;
+		animation-duration: 1s;
+		animation-delay: 1.5s;
+		animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+		transform: translate(400%, 10%);
+		animation-fill-mode: forwards;
+	}
+}
+
 .Navbar {
 	position: fixed;
 	z-index: 2222;
 	display: flex;
-
-	.toggle__box {
-		position: fixed;
-		top: 50px;
-		left: 200px;
-		color: var(--font-color);
-		font-family: var(--font-base);
-		font-size: 16px;
-		transform: translate(350%, 10%);
-		z-index: 2222;
-		background-color: var(--color-bg);
-		padding: 5px;
-		border-radius: 10px;
-		box-shadow: 0px 0px 0px 2px var(--font-color);
-		&.close {
-			transform: translate(200%, 10%);
-			display: none;
-			transition: all 2s ease-out;
-		}
-
-		&.open {
-			opacity: 0;
-			display: block;
-			animation: fadeIn;
-			animation-duration: 1s;
-			animation-delay: 1.5s;
-			animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
-			transform: translate(400%, 10%);
-			animation-fill-mode: forwards;
-		}
-	}
 
 	.hero__menu--outerboard {
 		width: 350px;
@@ -63,13 +63,6 @@
 			flex-direction: column;
 			align-items: center;
 			justify-content: center;
-
-			.toggle__box {
-				transform: translate(100%, -70%);
-
-				.toggle__command {
-				}
-			}
 
 			.toggle-box-cancle {
 				.first {
@@ -175,26 +168,26 @@
 
 @media screen and (max-width: 650px) {
 	.Navbar {
-		.toggle__box {
-			transform: translateX(450%);
-			transition: all 1s 0.5s ease-out;
-			position: fixed;
-			left: 30em;
+		// .toggle__box {
+		// 	transform: translateX(450%);
+		// 	transition: all 1s 0.5s ease-out;
+		// 	position: fixed;
+		// 	left: 30em;
 
-			&.close {
-				display: none;
-			}
-		}
+		// 	&.close {
+		// 		display: none;
+		// 	}
+		// }
 
 		.hero__menu--outerboard {
 			width: 100vw;
 			.hero__menu--innerboard {
 				position: relative;
 				.toggle__box {
-					transform: translateX(450%);
-					transition: all 1s 0.5s ease-out;
-					position: fixed;
-					left: 3em;
+					// transform: translateX(450%);
+					// transition: all 1s 0.5s ease-out;
+					// position: fixed;
+					// left: 3em;
 				}
 				.menu__circle {
 					position: relative;

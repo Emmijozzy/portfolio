@@ -17,12 +17,14 @@ export default function AboutMe() {
 					project management.
 				</p>
 			</div>
-			<button className="download btc" type="button">
-				Download CV
-			</button>
-			<button className="contact btc" type="button">
-				Contact Me
-			</button>
+			<div className="about__action-btn">
+				<button className="download btc" type="button">
+					Download CV
+				</button>
+				<button className="contact btc" type="button">
+					Contact Me
+				</button>
+			</div>
 		</div>
 	);
 }
