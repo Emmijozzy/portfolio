@@ -9,12 +9,12 @@
 
 .toggle__box {
 	position: absolute;
-	// top: 50px;
-	// left: 200px;
+	top: 20px;
+	right: 20px;
 	color: var(--font-color);
 	font-family: var(--font-base);
 	font-size: 16px;
-	transform: translate(350%, 10%);
+	// transform: translate(350%, 10%);
 	z-index: 2222;
 	background-color: var(--color-bg);
 	padding: 5px;
@@ -50,7 +50,7 @@
 		left: -1px;
 		top: -1px;
 		background: var(--color-bg);
-		box-shadow: 5px 5px 4px 0px #59b9c759;
+		box-shadow: var(--outer-shadow3);
 
 		.hero__menu--innerboard {
 			width: 90%;
@@ -109,15 +109,15 @@
 				.menu__tag {
 					width: 90%;
 					height: 50px;
-					box-shadow: 5px 5px 4px 0px #59b9c785, -3px -3px 5px 0px #ffffff;
+					box-shadow: 5px 5px 4px 0px #d0d3d6, -3px -3px 5px 0px #ffffff;
 					border-radius: 10px;
 
 					&:hover {
-						box-shadow: inset 5px 5px 4px 0px #59b9c785, inset -3px -3px 5px 0px #ffffff;
+						box-shadow: inset 5px 5px 4px 0px #d0d3d6, inset -3px -3px 5px 0px #ffffff;
 					}
 
 					&:active {
-						box-shadow: inset 5px 5px 4px 0px #59b9c785, inset -3px -3px 5px 0px #ffffff;
+						box-shadow: inset 5px 5px 4px 0px #d0d3d6, inset -3px -3px 5px 0px #ffffff;
 					}
 
 					a {
