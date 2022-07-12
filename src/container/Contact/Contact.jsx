@@ -3,6 +3,7 @@ import './Contact.scss';
 import { MdEmail } from 'react-icons/md';
 import { BsFacebook } from 'react-icons/bs';
 import { RiWhatsappFill } from 'react-icons/ri';
+import { motion } from 'framer-motion';
 import MenuBlock from '../../components/MenuBlock/MenuBlock';
 
 export default function Contact({ menuMood }) {
@@ -14,14 +15,16 @@ export default function Contact({ menuMood }) {
 				<h3 className="app__subhead">Contact</h3>
 				<div className="contact__box">
 					<div className="contact__medias">
-						<div className="contact__media  contact__email">
+						<motion.div className="contact__media  contact__email" animate={{
+							scale:[1, 2, 3, 1]
+						}}>
 							<MdEmail size={50} />
 							<h4>Email</h4>
 							<h5>josephogunsuyi@gmail.com</h5>
 							<div className="contact__link">
 								<a href="email.com">Send a message</a>
 							</div>
-						</div>
+						</motion.div>
 						<div className="contact__media contact__messager">
 							<BsFacebook size={50} />
 							<h4>Messager</h4>
