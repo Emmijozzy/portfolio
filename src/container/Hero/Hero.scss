@@ -32,7 +32,7 @@
 			}
 
 			.hero__stack {
-				font-family: 'Open Sans';
+				font-family: var(--font-base);
 				font-style: normal;
 				font-weight: 700;
 				font-size: 24px;
@@ -166,6 +166,9 @@
 
 @media screen and (max-width: 850px) {
 	.app__hero {
+		min-height: 60vh;
+		padding: 30px 0 10px;
+
 		.app__hero--board {
 			padding: 16px 0px;
 			.hero__moon--center {
@@ -236,6 +239,10 @@
 
 @media screen and (max-width: 650px) {
 	.app__hero {
+		min-height: 80vh;
+		padding-bottom: 15vh;
+		overflow: hidden;
+
 		.hero__menu--outerboard {
 			.hero__menu--innerboard {
 				.menu__circle {
@@ -256,7 +263,7 @@
 				flex-direction: column;
 
 				.hero__logo {
-					font-family: 'Open Sans';
+					font-family: var(--font-base);
 					font-style: normal;
 					font-weight: 700;
 					font-size: 50px;
@@ -266,7 +273,7 @@
 				}
 
 				.hero__stack {
-					font-family: 'Open Sans';
+					font-family: var(--font-base);
 					font-style: normal;
 					font-weight: 700;
 					font-size: 24px;

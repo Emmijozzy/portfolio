@@ -1,5 +1,6 @@
 import React from 'react';
 import './Contact.scss';
+import ScrollAnimation from 'react-animate-on-scroll';
 import { MdEmail } from 'react-icons/md';
 import { BsFacebook } from 'react-icons/bs';
 import { RiWhatsappFill } from 'react-icons/ri';
@@ -8,38 +9,38 @@ import MenuBlock from '../../components/MenuBlock/MenuBlock';
 export default function Contact({ menuMood }) {
 	const mood = menuMood ? 'menu__block menu__block-open' : 'menu__block';
 	return (
-		<div className="app__contact section__padding">
+		<div id="contact" className="app__contact section__padding">
 			<MenuBlock mood={mood} />
 			<div className="contact__board flex__center">
 				<h3 className="app__subhead">Contact</h3>
 				<div className="contact__box">
 					<div className="contact__medias">
-						<div className="contact__media  contact__email">
+						<ScrollAnimation animateIn="animate__fadeInLeft" duration={1.3} className="contact__media  contact__email">
 							<MdEmail size={50} />
 							<h4>Email</h4>
 							<h5>josephogunsuyi@gmail.com</h5>
 							<div className="contact__link">
 								<a href="email.com">Send a message</a>
 							</div>
-						</div>
-						<div className="contact__media contact__messager">
+						</ScrollAnimation>
+						<ScrollAnimation animateIn="animate__fadeInLeft" duration={1.3} className="contact__media contact__messager">
 							<BsFacebook size={50} />
 							<h4>Messager</h4>
 							<h5>Ogunsuyi Joseph O.</h5>
 							<div className="contact__link">
 								<a href="http://email.com">Send a message</a>
 							</div>
-						</div>
-						<div className="contact__media contact__whatapp">
+						</ScrollAnimation>
+						<ScrollAnimation animateIn="animate__fadeInLeft" duration={1.3} className="contact__media contact__whatapp">
 							<RiWhatsappFill size={50} />
 							<h4>WhatsApp</h4>
 							<h5>+2349032846121</h5>
 							<div className="contact__link">
 								<a href="email.com">Send a message</a>
 							</div>
-						</div>
+						</ScrollAnimation>
 					</div>
-					<div className="contact__message">
+					<ScrollAnimation animateIn="animate__fadeInRight" duration={1.3} className="contact__message">
 						<form className="flex__center">
 							<div className="form__group">
 								<label htmlFor="name">
@@ -71,7 +72,7 @@ export default function Contact({ menuMood }) {
 								SEND{' '}
 							</button>
 						</form>
-					</div>
+					</ScrollAnimation>
 				</div>
 			</div>
 		</div>

@@ -6,7 +6,7 @@ import MenuBlock from '../../components/MenuBlock/MenuBlock';
 export default function Portfolios({ menuMood }) {
 	const mood = menuMood ? 'menu__block menu__block-open' : 'menu__block';
 	return (
-		<div className="portfolio">
+		<div id="portfolio" className="portfolio">
 			<MenuBlock mood={mood} />
 			<div className="app__portfolio flex__center">
 				<div className="port_subhead app__subhead">PORTFOLIO</div>

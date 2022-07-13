@@ -11,9 +11,8 @@
 		"ecmaVersion": "latest",
 		"sourceType": "module"
 	},
-	"plugins": ["react", "prettier"],
+	"plugins": ["react"],
 	"rules": {
-		"prettier/prettier": "error",
 		"import/extensions": 0,
 		"react/prop-types": 0,
 		"linebreak-style": 0,

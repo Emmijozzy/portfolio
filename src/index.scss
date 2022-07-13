@@ -14,13 +14,17 @@
 
 	--font-base: 'Open Sans', sans-serif;
 	--font-content: 'PT Sans Caption', sans-serif;
-	--font-color: #00606c;
-	--font-color2: #000000a6;
+	--font-color: #ff008c;
+	--font-color2: #968d8d;
 
-	--outer-shadow: 4px 4px 5px 0px #59b9c785 inset, -7px -5px 4px 0px #effbff inset;
-	--outer-shadow2: 5px 5px 10px #c7eaef, -5px -5px 10px #fdffffa9;
-	--innerbox-shadow: 5px 5px 4px #c7eaef, -5px -5px 4px #fdffffa9;
-	--inner-shadow3: 4px 4px 4px 0px #c7eaef inset, -4px -4px 4px 0px #fdffffa9 inset;
+	--outer-shadow: 4px 4px 5px 0px #d0d3d6 inset, -7px -5px 4px 0px #fff inset;
+	--outer-shadow2:  inset -5px -5px 10px #b4adb1, 
+	inset 5px 5px 10px #ffffff;
+	--outer-shadow3: 5px 5px 4px 0px #d0d3d6;
+	--innerbox-shadow: 5px 5px 10px #d0d3d6,
+	-5px -5px 10px #ffffff;
+	--inner-shadow3: 4px 4px 4px 0px #ffffff inset, -4px -4px 4px 0px #d0d3d6 inset;
+
 
 	--color-golden: #dcca87;
 	--color-black: #0c0c0c;
@@ -28,7 +32,7 @@
 	--color-crimson: #f5efdb;
 	--color-grey: #aaaaaa;
 	--color-white: #ffffff;
-	--color-bg: #e4f7fb;
+	--color-bg: #ECF0F3;
 	--color-bg2: linear-gradient(145deg, #c3ffff, #a4dce3);
 
 	// font-size: clamp(16px, calc(1rem + ((1vw - 4px) * 0.25)), 20px);
