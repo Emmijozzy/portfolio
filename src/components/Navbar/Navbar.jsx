@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-scroll';
 import { ReactComponent as IconMenu } from '../../assets/greenbluewithback.svg';
 import './Navbar.scss';
 
@@ -15,19 +16,51 @@ function Navbar({ toggleMenuMood, toggleMenu }) {
 					</div>
 					<ul className="menu__group flex__center p__opensans">
 						<li className="menu__tag flex__center">
-							<a href="emmi.home">HOME</a>
+							<Link 
+								to="hero"
+								smooth
+								spy
+								duration={1000}
+								activeClass="active"
+							>
+								HOME
+							</Link>
 						</li>
 						<li className="menu__tag flex__center">
-							<a href="emmi.home">ABOUT</a>
+							<Link
+								to="about"
+								smooth
+								spy
+								duration={1000}
+								activeClass="active"
+							>
+								ABOUT
+							</Link>
 						</li>
-						<li className="menu__tag flex__center">
+						{/* <li className="menu__tag flex__center">
 							<a href="emmi.home">SERVICE</a>
+						</li> */}
+						<li className="menu__tag flex__center">
+							<Link 
+								to="portfolio"
+								smooth
+								spy
+								duration={1000}
+								activeClass="active"
+							>
+								PORTFOLIO
+							</Link>
 						</li>
 						<li className="menu__tag flex__center">
-							<a href="emmi.home">PORTFOLIO</a>
-						</li>
-						<li className="menu__tag flex__center">
-							<a href="emmi.home">CONTACT</a>
+							<Link 
+								to="contact"
+								smooth
+								spy
+								duration={1000}
+								activeClass="active"
+							>
+								CONTACT
+							</Link>
 						</li>
 					</ul>
 				</nav>

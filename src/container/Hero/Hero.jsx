@@ -11,7 +11,7 @@ import './Hero.scss';
 function Hero({ menuMood }) {
 	const mood = menuMood ? 'menu__block menu__block-open' : 'menu__block';
 	return (
-		<div className="app__hero flex__center">
+		<div id="hero" className="app__hero flex__center">
 			<MenuBlock mood={mood} />
 			<div className="app__hero--board">
 				<div className="hero__moon--center flex__center">

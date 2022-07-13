@@ -14,7 +14,7 @@ function About({ menuMood }) {
 	const mood = menuMood ? 'menu__block menu__block-open' : 'menu__block';
 	const { pathname } = useLocation();
 	return (
-		<div className="app__about">
+		<div id="about" className="app__about">
 			<MenuBlock mood={mood} />
 			<div className="about">
 				<h2 className="app__subhead">ABOUT ME</h2>

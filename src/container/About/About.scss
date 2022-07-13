@@ -105,7 +105,9 @@ a {
 			}
 
 			.about__pic-board {
-
+				width: 35%;
+				display: flex;
+				justify-content: center;
 				.about__pic {
 					width: 90%;
 					height: 100%;
@@ -254,6 +256,7 @@ a {
 					// padding: 15px 0;
 					height: 100%;
 					color: var(--font-color2);
+					// font-weight: 800;
 
 					tr {
 						box-sizing: content-box;
@@ -319,8 +322,8 @@ a {
 		height: 100%;
 
 		p {
-		font-size: 1.4rem;
-		line-height: 1.5;
+		font-size: 1.5rem;
+		line-height: 1.7;
 		}
 	}
 
@@ -436,7 +439,8 @@ a {
 		height: 100%;
 
 		p {
-			line-height: 15px;
+			line-height: 2;
+			font-size: 1.2rem;
 		}
 	}
 
@@ -515,8 +519,8 @@ a {
 			width: 100%;
 
 			p {
-				line-height: 11px;
-				font-size: 0.9rem;
+				line-height: 14px;
+				font-size: 1.3rem;
 			}
 		}
 

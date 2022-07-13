@@ -6,6 +6,19 @@
 .nav__show {
 	transition: all 1s ease-out;
 }
+// .menu__tag {
+// .active {
+// 		&#{$c} {
+// 			background-color: red;
+// 		}
+// 	}
+// }
+.active {
+	.menu__tag & {
+		color: #337a99;
+	}
+}
+
 
 .toggle__box {
 	position: absolute;
