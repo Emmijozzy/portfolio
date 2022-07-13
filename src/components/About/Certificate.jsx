@@ -4,7 +4,7 @@ import ScrollAnimation from 'react-animate-on-scroll';
 export default function Education() {
 	return (
 		<div className="about__innerboard-right certificate">
-			<ScrollAnimation animateIn="animate__fadeInRight" delay= {500} duration={1.3}>
+			<ScrollAnimation animateIn="animate__fadeInRight" delay= {500} duration={1}>
 				<table>
 					<tr className="heading__row">
 						<th>Name</th>

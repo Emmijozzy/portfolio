@@ -9,8 +9,7 @@ export default function AboutMe() {
 				<div className="about__pic-board">
 					<img src={profilePic} alt="profile pic" className="about__pic" />
 				</div>
-				<div className="about-me__content">
-					<ScrollAnimation animateIn="animate__fadeInRight" delay= {500} duration={1.3} >
+				<ScrollAnimation className="about-me__content" animateIn="animate__fadeInRight" delay= {500} duration={1} >
 						<p>
 							Hi! I’m Joseph Ogunsuyi, and I’m a designer & developer who has passion for building clean
 							web applications with intuitive functionality. I enjoy the process of turning ideas into
@@ -19,8 +18,7 @@ export default function AboutMe() {
 							creative teams, which involves daily stand-ups and communications, source control, and
 							project management.
 						</p>
-					</ScrollAnimation>
-				</div>
+				</ScrollAnimation>
 			</div>
 			<div className="about__action-btn">
 				<button className="download btc" type="button">

@@ -3,7 +3,7 @@ import ScrollAnimation from 'react-animate-on-scroll';
 
 export default function Certificate() {
 	return (
-			<ScrollAnimation animateIn="animate__fadeInRight" delay= {500} duration={1.3} className="about__innerboard-right education">
+			<ScrollAnimation animateIn="animate__fadeInRight" delay= {500} duration={1} className="about__innerboard-right education">
 				<table>
 					<tr className="heading__row">
 						<th>Degree</th>

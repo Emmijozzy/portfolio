@@ -18,19 +18,19 @@ function Hero({ menuMood }) {
 					<h1 className="hero__logo">EMMIJOZZY</h1>
 					<h3 className="hero__stack">WEB DEVELOPER</h3>
 					<div className="hero__social-icon flex__center">
-						<a href="emmijozzy.com" className="social-icon__box flex__center">
+						<a href="https://www.facebook.com/emmijozzy360" target="_blank" className="social-icon__box flex__center" rel="noreferrer">
 							<FaFacebook className="social-icons" size={28} />
 						</a>
-						<a href="emmijozzy.com" className="social-icon__box flex__center">
+						<a href=" https://wa.me/qr/2ULLFKQXPQTKP1" target="_blank" className="social-icon__box flex__center">
 							<IoLogoWhatsapp className="social-icons" size={28} />
 						</a>
-						<a href="emmijozzy.com" className="social-icon__box flex__center">
+						<a href="https://github.com/Emmijozzy/" target="_blank" className="social-icon__box flex__center" rel="noreferrer">
 							<BsGithub className="social-icons" size={28} />
 						</a>
-						<a href="emmijozzy.com" className="social-icon__box flex__center">
+						<a href="https://www.linkedin.com/in/ogunsuyi-joseph-oluwaseun-9b07911bb/" target="_blank" className="social-icon__box flex__center" rel="noreferrer">
 							<ImLinkedin className="social-icons" size={28} />
 						</a>
-						<a href="emmijozzy.com" className="social-icon__box flex__center">
+						<a href=" https://t.me/Emmijozzy" target="_blank" className="social-icon__box flex__center">
 							<BsTelegram className="social-icons" size={28} />
 						</a>
 					</div>

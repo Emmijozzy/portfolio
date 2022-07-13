@@ -5,7 +5,7 @@ import portImg from '../../assets/port_image.png';
 
 export default function Portfolio() {
 	return (
-		<ScrollAnimation className="port__container" animateIn="animate__fadeInRight" duration={1.3}>
+		<ScrollAnimation className="port__container" animateIn="animate__fadeInRight" duration={1}>
 				<div className="img-box">
 					<img className="port__img" src={portImg} alt="img" />
 				</div>
