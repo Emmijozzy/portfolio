@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfilio/static/css/main.51c6e6da.css",
-    "main.js": "/portfilio/static/js/main.08cd39a8.js",
+    "main.css": "/portfilio/static/css/main.14d38b3a.css",
+    "main.js": "/portfilio/static/js/main.56af172e.js",
     "static/media/hero-pic.png": "/portfilio/static/media/hero-pic.7dfa869dc721939d3eee.png",
     "static/media/emm_tenzies.png": "/portfilio/static/media/emm_tenzies.7fe003f905e4c68411bd.png",
     "static/media/profile-pic2.png": "/portfilio/static/media/profile-pic2.a55ea95ffd953a9ae676.png",
@@ -9,11 +9,11 @@
     "static/media/Quiz_app.png": "/portfilio/static/media/Quiz_app.87cbfdfd3be4ed6c780c.png",
     "static/media/logopink.svg": "/portfilio/static/media/logopink.1086d1d36c1eef1b3d835b0ad3433ef4.svg",
     "index.html": "/portfilio/index.html",
-    "main.51c6e6da.css.map": "/portfilio/static/css/main.51c6e6da.css.map",
-    "main.08cd39a8.js.map": "/portfilio/static/js/main.08cd39a8.js.map"
+    "main.14d38b3a.css.map": "/portfilio/static/css/main.14d38b3a.css.map",
+    "main.56af172e.js.map": "/portfilio/static/js/main.56af172e.js.map"
   },
   "entrypoints": [
-    "static/css/main.51c6e6da.css",
-    "static/js/main.08cd39a8.js"
+    "static/css/main.14d38b3a.css",
+    "static/js/main.56af172e.js"
   ]
 }
