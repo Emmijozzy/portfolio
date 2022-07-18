@@ -1,5 +1,7 @@
-import React from 'react';
-import { BrowserRouter as Router } from 'react-router-dom';
+import { animateScroll as scroll } from 'react-scroll';
+import React, { useEffect, useState } from 'react';
+import { MemoryRouter as Router } from 'react-router-dom';
+import { BsArrowUp } from 'react-icons/bs';
 import { Hero, About, Footer, Portfolios, Contact } from './container';
 // import AboutMe from './components/About/AboutMe';
 // import Education from './components/About/Education';
@@ -9,10 +11,25 @@ import { Navbar, MenuButton } from './components';
 import './App.scss';
 
 function App() {
-	const [menuMood, setMenuMood] = React.useState(false);
+	const [menuMood, setMenuMood] = useState(false);
+	const [showButton, setShowButton] = useState(false);
 	const toggleMenuMood = () => {
-		console.log("clicked 1")
+		console.log('clicked 1');
 		setMenuMood((prevMood) => !prevMood);
+	};
+
+	useEffect(() => {
+		window.addEventListener('scroll', () => {
+			if (window.pageYOffset > 300) {
+				setShowButton(true);
+			} else {
+				setShowButton(false);
+			}
+		});
+	}, []);
+
+	const scrollToTop = function () {
+		scroll.scrollToTop();
 	};
 
 	return (
@@ -25,6 +42,11 @@ function App() {
 				<Portfolios menuMood={menuMood} />
 				<Contact menuMood={menuMood} />
 				<Footer menuMood={menuMood} />
+				{showButton && (
+					<button onClick={scrollToTop} className="back-to-top" type="button">
+						<BsArrowUp />
+					</button>
+				)}
 			</div>
 		</Router>
 	);

@@ -23,6 +23,7 @@
 		padding: 10px;
 		border-radius: 10px;
 		// width: 80%;
+		display: none;
 
 		li {
 			box-shadow: var(--innerbox-shadow);
@@ -33,15 +34,17 @@
 	}
 
 	.portfolio__container {
-		margin-top: 5rem;
+		margin-top: 1rem;
 		flex-wrap: wrap;
 		gap: 20px;
-		width: 115%;
+		width: 100%;
+		box-shadow: var(--outer-shadow2);
+		padding: 3em 0;
+		border-radius: 10px;
 	}
 }
 
 @media screen and (min-width: 1201px) and (max-width: 3000px) {
-
 	.port__nav {
 		width: 80%;
 
@@ -80,7 +83,7 @@
 	.port__nav {
 		width: 105%;
 		font-size: 5px;
-		
+
 		li {
 			// width: 80%;
 			height: 100%;
@@ -91,4 +94,3 @@
 		}
 	}
 }
-

@@ -10,16 +10,18 @@ import MenuBlock from '../../components/MenuBlock/MenuBlock';
 export default function Contact({ menuMood }) {
 	const form = useRef();
 
-  const sendEmail = (e) => {
-    e.preventDefault();
+	const sendEmail = (e) => {
+		e.preventDefault();
 
-    emailjs.sendForm('service_v2hou0e', 'template_n33x4xf', form.current, 'vsizMm-5hmi-MTNel')
-      .then((result) => {
-          console.log(result.text);
-      }, (error) => {
-          console.log(error.text);
-      });
-  };
+		emailjs.sendForm('service_v2hou0e', 'template_n33x4xf', form.current, 'vsizMm-5hmi-MTNel').then(
+			(result) => {
+				console.log(result.text);
+			},
+			(error) => {
+				console.log(error.text);
+			}
+		);
+	};
 
 	const mood = menuMood ? 'menu__block menu__block-open' : 'menu__block';
 
@@ -30,32 +32,48 @@ export default function Contact({ menuMood }) {
 				<h3 className="app__subhead">Contact</h3>
 				<div className="contact__box">
 					<div className="contact__medias">
-						<ScrollAnimation animateIn="animate__fadeInLeft" duration={1} className="contact__media  contact__email">
+						<ScrollAnimation
+							animateIn="animate__fadeInLeft"
+							duration={1}
+							className="contact__media  contact__email"
+						>
 							<MdEmail size={50} />
 							<h4>Email</h4>
 							<h5>josephogunsuyi@gmail.com</h5>
 							<div className="contact__link">
-								<a href="email.com">Send a message</a>
+								<a href="mailto:josephogunsuyi@gmail.com">Send a message</a>
 							</div>
 						</ScrollAnimation>
-						<ScrollAnimation animateIn="animate__fadeInLeft" duration={1} className="contact__media contact__messager">
+						<ScrollAnimation
+							animateIn="animate__fadeInLeft"
+							duration={1}
+							className="contact__media contact__messager"
+						>
 							<BsFacebook size={50} />
 							<h4>Messager</h4>
 							<h5>Ogunsuyi Joseph O.</h5>
 							<div className="contact__link">
-								<a href="http://email.com">Send a message</a>
+								<a href="https://m.me/emmijozzy360">Send a message</a>
 							</div>
 						</ScrollAnimation>
-						<ScrollAnimation animateIn="animate__fadeInLeft" duration={1} className="contact__media contact__whatapp">
+						<ScrollAnimation
+							animateIn="animate__fadeInLeft"
+							duration={1}
+							className="contact__media contact__whatapp"
+						>
 							<RiWhatsappFill size={50} />
 							<h4>WhatsApp</h4>
 							<h5>+2349032846121</h5>
 							<div className="contact__link">
-								<a href="email.com">Send a message</a>
+								<a href="https://wa.me/qr/2ULLFKQXPQTKP1">Send a message</a>
 							</div>
 						</ScrollAnimation>
 					</div>
-					<ScrollAnimation animateIn="animate__fadeInRight" duration={1} className="contact__message">
+					<ScrollAnimation
+						animateIn="animate__fadeInRight"
+						duration={1}
+						className="contact__message"
+					>
 						<form ref={form} onSubmit={sendEmail} className="flex__center">
 							<div className="form__group">
 								<label htmlFor="name">

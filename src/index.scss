@@ -18,13 +18,10 @@
 	--font-color2: #968d8d;
 
 	--outer-shadow: 4px 4px 5px 0px #d0d3d6 inset, -7px -5px 4px 0px #fff inset;
-	--outer-shadow2:  inset -5px -5px 10px #b4adb1, 
-	inset 5px 5px 10px #ffffff;
+	--outer-shadow2: inset -5px -5px 10px #b4adb1, inset 5px 5px 10px #ffffff;
 	--outer-shadow3: 5px 5px 4px 0px #d0d3d6;
-	--innerbox-shadow: 5px 5px 10px #d0d3d6,
-	-5px -5px 10px #ffffff;
+	--innerbox-shadow: 5px 5px 10px #d0d3d6, -5px -5px 10px #ffffff;
 	--inner-shadow3: 4px 4px 4px 0px #ffffff inset, -4px -4px 4px 0px #d0d3d6 inset;
-
 
 	--color-golden: #dcca87;
 	--color-black: #0c0c0c;
@@ -32,7 +29,7 @@
 	--color-crimson: #f5efdb;
 	--color-grey: #aaaaaa;
 	--color-white: #ffffff;
-	--color-bg: #ECF0F3;
+	--color-bg: #ecf0f3;
 	--color-bg2: linear-gradient(145deg, #c3ffff, #a4dce3);
 
 	// font-size: clamp(16px, calc(1rem + ((1vw - 4px) * 0.25)), 20px);
