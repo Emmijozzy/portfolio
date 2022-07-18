@@ -1,7 +1,6 @@
 {
 	"name": "portfolio",
 	"version": "0.1.0",
-	"homepage": "https://emmijozzy.github.io/portfilio",
 	"private": true,
 	"engines": {
     "node": "14.17.0",
