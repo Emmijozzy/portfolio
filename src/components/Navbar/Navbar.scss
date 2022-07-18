@@ -15,10 +15,9 @@
 // }
 .active {
 	.menu__tag & {
-		color: #337a99;
+		color: var(--font-color2);
 	}
 }
-
 
 .toggle__box {
 	position: absolute;
@@ -96,15 +95,16 @@
 			}
 
 			.menu__circle {
-				width: 12em;
-				height: 12em;
+				width: 20em;
+				height: 10em;
 				background: var(--color-bg);
 				box-shadow: var(--outer-shadow2);
 				border-radius: 50%;
 				// transform: translate(32%, 13%);
 
 				.menu__icon {
-					width: 50%;
+					width: 40%;
+					transform: translate(4%, 5%);
 				}
 			}
 
@@ -180,7 +180,7 @@
 	}
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 450px) {
 	.Navbar {
 		// .toggle__box {
 		// 	transform: translateX(450%);
@@ -206,9 +206,9 @@
 				.menu__circle {
 					position: relative;
 					// left: 50%;
-					width: 60%;
+					width: 80%;
+					height: 14em;
 					// transform: translate(-50%, 20%);
-					height: 20em;
 					margin-top: 6em;
 					.menu__icon {
 					}

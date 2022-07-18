@@ -1,10 +1,10 @@
 .port__container {
 	display: grid;
-	grid-template-rows: 75% 10% 15%;
+	// grid-template-rows: 75% 10% 15%;
 	align-items: center;
 	justify-content: center;
 	width: 25em;
-	height: 35em;
+	height: 25em;
 	background-color: var(--color-bg);
 	box-shadow: var(--innerbox-shadow);
 	border-radius: 10px;
@@ -25,12 +25,18 @@
 
 .port__name {
 	width: 90%;
-	align-self: flex-start;
+	align-self: start;
 	justify-self: center;
 	font-family: var(--font-base);
 	color: var(--font-color);
 	font-weight: 700;
 	font-size: 14px;
+
+	span {
+		display: block;
+		font-size: 10px;
+		color: var(--font-color2);
+	}
 }
 
 .port__btn {
@@ -54,6 +60,8 @@
 	height: 3rem;
 	align-self: end;
 	margin-bottom: 20px;
+	text-align: center;
+	cursor: pointer;
 }
 
 .btn:hover {
@@ -70,10 +78,21 @@
 	color: var(--font-color);
 }
 
+@media screen and (min-width: 1201px) {
+	.port__container {
+		grid-template-rows: 55% 30% 15%;
+
+	}	
+}
+
+@media screen and (max-width: 1200px) and (min-width: 851px) {
+	
+}
+
 @media screen and (max-width: 500px) {
 	.port__container {
 		width: 90%;
-		height: 43em;
+		height: 35em;
 	}
 
 	.img-box {
