@@ -1,6 +1,6 @@
 import React from 'react';
 // import profilePic from '../../assets/abou_pic.png';
-import { Routes, Route, Link, useLocation } from 'react-router-dom';
+import { Routes, Route, Link, useLocation} from 'react-router-dom';
 // import { Link, Outlet } from 'react-router-dom';
 import MenuBlock from '../../components/MenuBlock/MenuBlock';
 // import Skill from '../../components/Skill/Skill';
@@ -20,18 +20,32 @@ function About({ menuMood }) {
 				<h2 className="app__subhead">ABOUT ME</h2>
 				<div className="about__board">
 					<ul className="about__innerboard-left">
-						<li className={`about__list active flex__center ${pathname === '/' ? 'active_link' : 'link'}`} >
+						<li
+							className={`about__list active flex__center ${
+								pathname === '/' ? 'active_link' : 'link'
+							}`}
+						>
 							<Link to="/"> About me </Link>
 						</li>
-						<li className={`about__list active flex__center ${pathname === '/education' ? 'active_link' : 'link'}`}>
-							<Link to="/education">Education</Link>	
+						<li
+							className={`about__list active flex__center ${
+								pathname === '/education' ? 'active_link' : 'link'
+							}`}
+						>
+							<Link to="/education">Education</Link>
 						</li>
-						<li className={`about__list active flex__center ${pathname === '/certificate' ? 'active_link' : 'link'}`}>
-							<Link
-								to="/certificate"
-							>Certificate</Link>
+						<li
+							className={`about__list active flex__center ${
+								pathname === '/certificate' ? 'active_link' : 'link'
+							}`}
+						>
+							<Link to="/certificate">Certificate</Link>
 						</li>
-						<li className={`about__list active flex__center ${pathname === '/skills' ? 'active_link' : 'link'}`}>
+						<li
+							className={`about__list active flex__center ${
+								pathname === '/skills' ? 'active_link' : 'link'
+							}`}
+						>
 							<Link to="/skills">Skills</Link>
 						</li>
 					</ul>

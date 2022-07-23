@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-scroll';
-import { ReactComponent as IconMenu } from '../../assets/greenbluewithback.svg';
+import { ReactComponent as IconMenu } from '../../assets/logopink.svg';
 import './Navbar.scss';
 
 function Navbar({ toggleMenuMood, toggleMenu }) {
@@ -16,24 +16,12 @@ function Navbar({ toggleMenuMood, toggleMenu }) {
 					</div>
 					<ul className="menu__group flex__center p__opensans">
 						<li className="menu__tag flex__center">
-							<Link 
-								to="hero"
-								smooth
-								spy
-								duration={1000}
-								activeClass="active"
-							>
+							<Link to="hero" smooth spy duration={1000} activeClass="active">
 								HOME
 							</Link>
 						</li>
 						<li className="menu__tag flex__center">
-							<Link
-								to="about"
-								smooth
-								spy
-								duration={1000}
-								activeClass="active"
-							>
+							<Link to="about" smooth spy duration={1000} activeClass="active">
 								ABOUT
 							</Link>
 						</li>
@@ -41,24 +29,12 @@ function Navbar({ toggleMenuMood, toggleMenu }) {
 							<a href="emmi.home">SERVICE</a>
 						</li> */}
 						<li className="menu__tag flex__center">
-							<Link 
-								to="portfolio"
-								smooth
-								spy
-								duration={1000}
-								activeClass="active"
-							>
+							<Link to="portfolio" smooth spy duration={1000} activeClass="active">
 								PORTFOLIO
 							</Link>
 						</li>
 						<li className="menu__tag flex__center">
-							<Link 
-								to="contact"
-								smooth
-								spy
-								duration={1000}
-								activeClass="active"
-							>
+							<Link to="contact" smooth spy duration={1000} activeClass="active">
 								CONTACT
 							</Link>
 						</li>

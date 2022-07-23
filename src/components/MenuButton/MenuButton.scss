@@ -1,6 +1,6 @@
 .toggle__menu {
-  position: fixed;
-	right: 30px;
+	position: fixed;
+	left: 30px;
 	top: 30px;
 	color: var(--font-color);
 	font-size: 16px;
@@ -9,8 +9,8 @@
 	box-shadow: 0px 0px 0px 2px var(--font-color);
 	padding: 5px;
 	border-radius: 10px;
-  z-index: 22222;
-  cursor: pointer;
+	z-index: 22222;
+	cursor: pointer;
 	background-color: var(--color-bg);
 }
 
@@ -30,5 +30,5 @@
 }
 
 .toggle__menu.close {
-  display: none;
+	display: none;
 }

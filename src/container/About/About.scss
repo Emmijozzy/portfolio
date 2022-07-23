@@ -74,7 +74,6 @@ a {
 				cursor: pointer;
 				margin: 1rem 0;
 			}
-			
 		}
 
 		.link {
@@ -83,13 +82,12 @@ a {
 
 		.active_link {
 			box-shadow: var(--inner-shadow3);
+			color: var(--font-color2);
 		}
 
 		.about__list:hover {
 			box-shadow: var(--inner-shadow3);
 		}
-
-
 
 		.about__innerboard-right.about-me {
 			background-color: none;
@@ -233,7 +231,7 @@ a {
 				.heading__row {
 					word-break: break-all;
 					display: grid;
-					grid-template-columns: 35% 50% 15%;
+					grid-template-columns: 40% 40% 10%;
 					align-items: center;
 					justify-content: space-between;
 					background-color: var(--color-bg);
@@ -271,6 +269,10 @@ a {
 						overflow-wrap: break-word;
 						margin: 4px auto;
 						padding: 7px 0;
+
+						td:first-child{
+							text-decoration: underline;
+						}
 					}
 				}
 			}
@@ -304,9 +306,8 @@ a {
 
 	.about__list {
 		width: 90%;
-		font-size: 1.5em
+		font-size: 1.5em;
 	}
-
 
 	.about__innerboard-right {
 		width: 70%;
@@ -322,8 +323,8 @@ a {
 		height: 100%;
 
 		p {
-		font-size: 1.5rem;
-		line-height: 1.7;
+			font-size: 1.5rem;
+			line-height: 1.45;
 		}
 	}
 
@@ -364,7 +365,6 @@ a {
 		width: 90%;
 		font-size: 1.5em;
 	}
-
 
 	.about__innerboard-right {
 		width: 70%;
@@ -535,15 +535,16 @@ a {
 	}
 
 	.about__innerboard-right.education,
-	.about__innerboard-right.certificate{
+	.about__innerboard-right.certificate {
 		table {
 			font-size: 10px;
+			font-weight: 500;
 		}
 	}
 
 	.about__action-btn {
-			display: flex;
-			gap: 30px;
+		display: flex;
+		gap: 30px;
 	}
 
 	.about__innerboard-right.skills {
