@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.14d38b3a.css",
-    "main.js": "/portfolio/static/js/main.a2946e95.js",
-    "static/media/hero-pic.png": "/portfolio/static/media/hero-pic.7dfa869dc721939d3eee.png",
-    "static/media/emm_tenzies.png": "/portfolio/static/media/emm_tenzies.7fe003f905e4c68411bd.png",
-    "static/media/profile-pic2.png": "/portfolio/static/media/profile-pic2.a55ea95ffd953a9ae676.png",
-    "static/media/port_image.png": "/portfolio/static/media/port_image.dc246ff70514023f1c27.png",
-    "static/media/Quiz_app.png": "/portfolio/static/media/Quiz_app.87cbfdfd3be4ed6c780c.png",
-    "static/media/logopink.svg": "/portfolio/static/media/logopink.1086d1d36c1eef1b3d835b0ad3433ef4.svg",
-    "index.html": "/portfolio/index.html",
-    "main.14d38b3a.css.map": "/portfolio/static/css/main.14d38b3a.css.map",
-    "main.a2946e95.js.map": "/portfolio/static/js/main.a2946e95.js.map"
+    "main.css": "/static/css/main.14d38b3a.css",
+    "main.js": "/static/js/main.14e8b673.js",
+    "static/media/hero-pic.png": "/static/media/hero-pic.7dfa869dc721939d3eee.png",
+    "static/media/emm_tenzies.png": "/static/media/emm_tenzies.7fe003f905e4c68411bd.png",
+    "static/media/profile-pic2.png": "/static/media/profile-pic2.a55ea95ffd953a9ae676.png",
+    "static/media/port_image.png": "/static/media/port_image.dc246ff70514023f1c27.png",
+    "static/media/Quiz_app.png": "/static/media/Quiz_app.87cbfdfd3be4ed6c780c.png",
+    "static/media/logopink.svg": "/static/media/logopink.1086d1d36c1eef1b3d835b0ad3433ef4.svg",
+    "index.html": "/index.html",
+    "main.14d38b3a.css.map": "/static/css/main.14d38b3a.css.map",
+    "main.14e8b673.js.map": "/static/js/main.14e8b673.js.map"
   },
   "entrypoints": [
     "static/css/main.14d38b3a.css",
-    "static/js/main.a2946e95.js"
+    "static/js/main.14e8b673.js"
   ]
 }

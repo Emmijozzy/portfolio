@@ -1,7 +1,6 @@
 {
 	"name": "portfolio",
 	"version": "0.1.0",
-	"homepage": "https://emmijozzy.github.io/portfolio",
 	"private": true,
 	"dependencies": {
 		"@emailjs/browser": "^3.6.2",
@@ -26,7 +25,7 @@
 	"scripts": {
 		"pre-commit": "lint-staged",
 		"start": "react-scripts start",
-		"predeploy": "npm run build",
+		"predeploy": "CI= npm run build",
 		"deploy": "gh-pages -d build",
 		"build": "react-scripts build",
 		"test": "react-scripts test",
