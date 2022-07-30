@@ -1,16 +1,19 @@
 {
-	"files": {
-		"main.css": "/static/css/main.9b433258.css",
-		"main.js": "/static/js/main.14e8b673.js",
-		"static/media/hero-pic.png": "/static/media/hero-pic.7dfa869dc721939d3eee.png",
-		"static/media/emm_tenzies.png": "/static/media/emm_tenzies.7fe003f905e4c68411bd.png",
-		"static/media/profile-pic2.png": "/static/media/profile-pic2.a55ea95ffd953a9ae676.png",
-		"static/media/port_image.png": "/static/media/port_image.dc246ff70514023f1c27.png",
-		"static/media/Quiz_app.png": "/static/media/Quiz_app.87cbfdfd3be4ed6c780c.png",
-		"static/media/logopink.svg": "/static/media/logopink.1086d1d36c1eef1b3d835b0ad3433ef4.svg",
-		"index.html": "/index.html",
-		"main.9b433258.css.map": "/static/css/main.9b433258.css.map",
-		"main.14e8b673.js.map": "/static/js/main.14e8b673.js.map"
-	},
-	"entrypoints": ["static/css/main.9b433258.css", "static/js/main.14e8b673.js"]
+  "files": {
+    "main.css": "/static/css/main.b7ceb4f3.css",
+    "main.js": "/static/js/main.e9595bdd.js",
+    "static/media/hero-pic.png": "/static/media/hero-pic.7dfa869dc721939d3eee.png",
+    "static/media/emm_tenzies.png": "/static/media/emm_tenzies.7fe003f905e4c68411bd.png",
+    "static/media/profile-pic2.png": "/static/media/profile-pic2.a55ea95ffd953a9ae676.png",
+    "static/media/port_image.png": "/static/media/port_image.dc246ff70514023f1c27.png",
+    "static/media/Quiz_app.png": "/static/media/Quiz_app.87cbfdfd3be4ed6c780c.png",
+    "static/media/logopink.svg": "/static/media/logopink.1086d1d36c1eef1b3d835b0ad3433ef4.svg",
+    "index.html": "/index.html",
+    "main.b7ceb4f3.css.map": "/static/css/main.b7ceb4f3.css.map",
+    "main.e9595bdd.js.map": "/static/js/main.e9595bdd.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b7ceb4f3.css",
+    "static/js/main.e9595bdd.js"
+  ]
 }
