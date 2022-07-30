@@ -61,13 +61,12 @@
 		position: relative;
 		left: -1px;
 		top: -1px;
-		background: var(--color-bg);
+		background: var(--bg-transperent);
 		box-shadow: var(--outer-shadow3);
 
 		.hero__menu--innerboard {
 			width: 90%;
 			height: 95%;
-			background: var(--color-bg);
 			transform: translate(6%, 3%);
 			box-shadow: var(--outer-shadow);
 			border-radius: 10px;
