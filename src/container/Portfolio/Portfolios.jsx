@@ -22,9 +22,7 @@ export default function Portfolios({ menuMood }) {
 					<li>BACK-END</li>
 					<li>FULL STACK</li>
 				</ul>
-				<div className="portfolio__container flex__center">
-					{portfolioElem}
-				</div>
+				<div className="portfolio__container flex__center">{portfolioElem}</div>
 			</div>
 		</div>
 	);
