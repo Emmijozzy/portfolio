@@ -1,7 +1,7 @@
 {
 	"name": "portfolio",
 	"version": "0.1.0",
-	"homepage": "https://emmijozzy.github.io/portfilio",
+	"homepage": "https://emmijozzy.github.io/portfolio",
 	"private": true,
 	"dependencies": {
 		"@emailjs/browser": "^3.6.2",

@@ -25,7 +25,8 @@ function Hero({ menuMood }) {
 					<div className="logo flex__center ">
 						<IconMenu className="menu__icon" />
 					</div>
-					<h1 className="hero__logo">MEET EMMIJOZZY</h1>
+					<h1 className="hero__logo">MEET</h1>
+					<h1 className="hero__logo">OGUNSUYI JOSEPH</h1>
 					<h3 className="hero__stack">A WEB DEVELOPER</h3>
 					<div className="hero__social-icon flex__center">
 						<a
