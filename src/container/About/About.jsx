@@ -1,6 +1,6 @@
 import React from 'react';
 // import profilePic from '../../assets/abou_pic.png';
-import { Routes, Route, Link, useLocation} from 'react-router-dom';
+import { Routes, Route, Link, useLocation } from 'react-router-dom';
 // import { Link, Outlet } from 'react-router-dom';
 import MenuBlock from '../../components/MenuBlock/MenuBlock';
 // import Skill from '../../components/Skill/Skill';
