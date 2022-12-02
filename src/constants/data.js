@@ -3,6 +3,13 @@ import { quizApp, emmiTenzies, backEndImg } from '../assets/port_image';
 const portfolios = [
 	{
 		portImg: quizApp,
+		title: 'Red Plant',
+		githubLink: 'https://github.com/Emmijozzy/e-commerce-wae-spaces',
+		demoLink: 'https://e-commerce-wae-spaces.vercel.app/',
+		stack: 'Front-end',
+	},
+	{
+		portImg: quizApp,
 		title: 'Quiz App',
 		githubLink: 'https://github.com/Emmijozzy/Quiz-app',
 		demoLink: 'https://emmijozzy.github.io/Quiz-app/',
