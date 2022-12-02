@@ -12,7 +12,7 @@ export default function Skills() {
 			<Skill name="React.js" rate={60} />
 			<Skill name="Node.js" rate={65} />
 			<Skill name="Express.js" rate={75} />
-			<Skill name="Passport.js" rate={75} />
+			<Skill name="Typescript" rate={55} />
 			<Skill name="MongoDB" rate={70} />
 		</div>
 	);
