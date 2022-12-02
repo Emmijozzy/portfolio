@@ -1,8 +1,8 @@
-import { quizApp, emmiTenzies, backEndImg } from '../assets/port_image';
+import { quizApp, emmiTenzies, backEndImg, redPlant } from '../assets/port_image';
 
 const portfolios = [
 	{
-		portImg: quizApp,
+		portImg: redPlant,
 		title: 'Red Plant',
 		githubLink: 'https://github.com/Emmijozzy/e-commerce-wae-spaces',
 		demoLink: 'https://e-commerce-wae-spaces.vercel.app/',
