@@ -9,6 +9,9 @@ import MenuBlock from '../../components/MenuBlock/MenuBlock';
 
 export default function Contact({ menuMood }) {
 	const form = useRef();
+	const name = useRef();
+	const email = useRef();
+	const message = useRef();
 
 	const sendEmail = (e) => {
 		e.preventDefault();
@@ -20,7 +23,12 @@ export default function Contact({ menuMood }) {
 			(error) => {
 				console.log(error.text);
 			}
-		);
+		)
+			alert("Confirm ?");
+			name.current.value ="";
+			email.current.value = "";
+			message.current.value = "";
+
 	};
 
 	const mood = menuMood ? 'menu__block menu__block-open' : 'menu__block';
@@ -81,6 +89,7 @@ export default function Contact({ menuMood }) {
 										type="text"
 										name="user_name"
 										placeholder="Name"
+										ref={name}
 										id="name"
 										className="form__input"
 									/>
@@ -91,6 +100,7 @@ export default function Contact({ menuMood }) {
 									<input
 										type="text"
 										name="user_email"
+										ref={email}
 										placeholder="Email"
 										id="email"
 										className="form__input"
@@ -98,7 +108,9 @@ export default function Contact({ menuMood }) {
 								</label>
 							</div>
 							<div className="form__group">
-								<textarea name="message" placeholder="Message" className="form__input" />
+								<textarea name="message" placeholder="Message" 
+								ref={message}
+								className="form__input" />
 							</div>
 							<button type="submit" className="submit__btn btn">
 								{' '}
