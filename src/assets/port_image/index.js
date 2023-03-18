@@ -3,5 +3,6 @@ import quizApp from './Quiz_app.png';
 import emmiTenzies from './emm_tenzies.png';
 import backEndImg from './back-end-img.jpg';
 import redPlant from './red-plant.png';
+import portFigma from  './my-por-fig.png';
 
-export { portImg, quizApp, emmiTenzies, backEndImg, redPlant };
+export { portImg, quizApp, emmiTenzies, backEndImg, redPlant, portFigma };

@@ -9,13 +9,16 @@ export default function Portfolio({ portfolioDetails }) {
 	let githubLink;
 	let demoLick;
 	let stack;
+	let figma;
 	if (portfolioDetails) {
 		portImg = portfolioDetails.portImg;
 		title = portfolioDetails.title;
 		githubLink = portfolioDetails.githubLink;
 		demoLick = portfolioDetails.demoLink;
 		stack = portfolioDetails.stack;
+		figma = portfolioDetails.figma;
 	}
+
 	return (
 		<ScrollAnimation className="port__container" animateIn="animate__fadeInRight" duration={1}>
 			<div className="img-box">
@@ -26,12 +29,12 @@ export default function Portfolio({ portfolioDetails }) {
 				<span>{stack}</span>
 			</div>
 			<div className="port__btn">
-				<div className="btn github flex__center">
+				{githubLink && (<div className="btn github flex__center">
 					<a href={githubLink}>Github</a>
-				</div>
+				</div>)}
 				{demoLick && (
 					<div className="btn live-demo flex__center">
-						<a href={demoLick}>Live Demo</a>
+						<a href={demoLick}>{!figma ? "Live Demo" : "Link"}</a>
 					</div>
 				)}
 			</div>

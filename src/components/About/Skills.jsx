@@ -14,6 +14,8 @@ export default function Skills() {
 			<Skill name="Express.js" rate={75} />
 			<Skill name="Typescript" rate={55} />
 			<Skill name="MongoDB" rate={70} />
+			<Skill name="SQL" rate={50} />
+			<Skill name="Figma" rate={60} />
 		</div>
 	);
 }
