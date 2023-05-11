@@ -29,7 +29,7 @@ export default function AboutMe() {
 			<div className="about__action-btn">
 				<button className="download btc" type="button">
 					<a
-						href="https://drive.google.com/file/d/1JCg8HrxgiuFAc2KPrPa24GTt6MJsjCax/view?usp=drivesdk"
+						href="https://drive.google.com/file/d/1cb8mNHRv-ydWQkNLdvlXDOy2IffSxS_J/view?usp=share_link"
 						type="button"
 					>
 						Download CV

@@ -20,14 +20,14 @@ export default function Portfolio({ portfolioDetails }) {
 	}
 
 	return (
-		<ScrollAnimation className="port__container" animateIn="animate__fadeInRight" duration={1}>
+		<ScrollAnimation className="port__container" animateIn="animate__bounceIn" duration={1}>
 			<div className="img-box">
 				<img className="port__img" src={portImg} alt="img" />
 			</div>
-			<div className="port__name">
+			<ScrollAnimation className="port__name" animateIn="animate__lightSpeedInLeft">
 				{title}
 				<span>{stack}</span>
-			</div>
+			</ScrollAnimation>
 			<div className="port__btn">
 				{githubLink && (<div className="btn github flex__center">
 					<a href={githubLink}>Github</a>
