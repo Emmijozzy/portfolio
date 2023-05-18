@@ -21,22 +21,24 @@ export default function Portfolio({ portfolioDetails }) {
 
 	return (
 		<ScrollAnimation className="port__container" animateIn="animate__bounceIn" duration={1}>
-			<div className="img-box">
-				<img className="port__img" src={portImg} alt="img" />
-			</div>
-			<ScrollAnimation className="port__name" animateIn="animate__lightSpeedInLeft">
-				{title}
-				<span>{stack}</span>
-			</ScrollAnimation>
-			<div className="port__btn">
-				{githubLink && (<div className="btn github flex__center">
-					<a href={githubLink}>Github</a>
-				</div>)}
-				{demoLick && (
-					<div className="btn live-demo flex__center">
-						<a href={demoLick}>{!figma ? "Live Demo" : "Link"}</a>
-					</div>
-				)}
+			<div className='port__innerwrapper'>
+				<div className="img-box">
+					<img className="port__img" src={portImg} alt="img" />
+				</div>
+				<ScrollAnimation className="port__name" animateIn="animate__lightSpeedInLeft">
+					{title}
+					<span>{stack}</span>
+				</ScrollAnimation>
+				<div className="port__btn">
+					{githubLink && (<div className="btn github flex__center">
+						<a href={githubLink}>Github</a>
+					</div>)}
+					{demoLick && (
+						<div className="btn live-demo flex__center">
+							<a href={demoLick}>{!figma ? "Live Demo" : "Link"}</a>
+						</div>
+					)}
+				</div>
 			</div>
 		</ScrollAnimation>
 	);
